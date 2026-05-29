@@ -699,4 +699,19 @@ footer {
     .about-gallery { grid-template-columns: 1fr; }
     .hero-ctas .btn { width: 100%; }
     .cta-phones-wrapper { flex-direction: column; gap: 12px; align-items: center; }
+
+     .header-container { 
+        flex-direction: column; 
+        gap: 20px;
+        padding-top: 15px;  /* DESCE a logo do topo */
+    }
+    
+    .logo-img {
+        height: 55px;  /* Logo MENOR no celular */
+    }
+    
+    .logo-placeholder {
+        justify-content: center;  /* Centraliza */
+        width: 100%;
+    }
 }
